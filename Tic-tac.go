@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strings"
 )
-func main() {
+func board() {
 	//board
     board := [] [] string{
 		{"-","-","-" },
 	 {"-","-","-" },
 	 {"-","-","-" },
 	}
-
+//players result
 board [0] [0] = "x"
 board [2] [2] = "0"
 board [1] [2] = "x"
@@ -23,4 +23,10 @@ for i := 0; i < len(board); i++{
 }
 
 // fmt.Println(board)
+}
+
+func main (){
+board()
+appendSlice()
+rangeMethod()
 }
