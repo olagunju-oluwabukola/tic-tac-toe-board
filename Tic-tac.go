@@ -29,4 +29,6 @@ func main (){
 board()
 appendSlice()
 rangeMethod()
+mapTest()
+fmt.Println(mp)
 }
