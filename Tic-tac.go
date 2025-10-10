@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"strings"
 )
 func board() {
@@ -31,4 +32,7 @@ appendSlice()
 rangeMethod()
 mapTest()
 fmt.Println(mp)
+compute(math.Pow)
+fx()
+cs()
 }
